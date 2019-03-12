@@ -21,7 +21,7 @@ public class Query {
      * @param header
      * @param sequence
      */
-    private Query(String header, String sequence){
+    public Query(String header, String sequence){
         this.header = header;
         this.sequence = sequence;
     }
@@ -29,7 +29,7 @@ public class Query {
     /**
      * clear Arraylist orfList
      */
-    protected void clearOrfList(){
+    public void clearOrfList(){
         orfList = null;
     }
 
